@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+#root {
+    display: flex;
+    background-color: #000;
+    height: 100%;
+    flex-direction: column;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    color: #fff;
+    background-color: #000;
+    padding: 1rem 1rem 5rem;
+  }
+  
+  .score {
+    grid-area: score;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Press Start 2P";
+  }
+  
+  .title {
+    font-family: "Press Start 2P";
+    text-align: center;
+    color: #f5a53f;
+    margin: 2rem 0;
+  }
+  
+  .emojis {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .form-movie {
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+  
+  .form-movie .input {
+    border-radius: 0.8rem;
+    border: none;
+    flex: 1;
+    height: 2rem;
+    color: #000;
+    padding: 0.4rem 1rem;
+  }
+  
+  .btn {
+    height: auto;
+    min-width: 10rem;
+    width: fit-content;
+    background-color: #5ad257;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    font-family: "Press Start 2P";
+  }
+  
+  .board-game-over {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    height: 100vh;
+    width: -webkit-fill-available;
+  }
+  
